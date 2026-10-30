@@ -40,10 +40,10 @@ pause>nul
 
 :: Remove any half-processed files from last scan
 cls
-del Result.txt
-del parsedResults1.txt
-del parsedResults2.txt
-cls
+del /q Result.txt 2>nul
+del /q parsedResults1.txt 2>nul
+del /q parsedResults2.txt 2>nul
+
 echo Started...
 echo.
 echo Scan started. Port:%port%; scan mode:%mode%; threads:%threads%...>%logs%
