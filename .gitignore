@@ -1,2 +1,5 @@
 # Ignore all user specified, result and intermediate parse result files
 *.txt
+
+# In case someone wants to compile from scratch
+*.exe
