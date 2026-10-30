@@ -1,36 +1,3 @@
-::[Bat To Exe Converter]
-::
-::YAwzoRdxOk+EWAjk
-::fBw5plQjdCyDJGyX8VAjFDpQQQ2MNXiuFLQI5/rHy++UqVkSRN4bXIDo5j1D1Gf2FMMNvhHFMEYJy5taMDJbezeyazMdqmtnr2GxJdKZ/QbiRSg=
-::YAwzuBVtJxjWCl3EqQJgSA==
-::ZR4luwNxJguZRRnk
-::Yhs/ulQjdF+5
-::cxAkpRVqdFKZSDk=
-::cBs/ulQjdF+5
-::ZR41oxFsdFKZSTk=
-::eBoioBt6dFKZSDk=
-::cRo6pxp7LAbNWATEpCI=
-::egkzugNsPRvcWATEpCI=
-::dAsiuh18IRvcCxnZtBJQ
-::cRYluBh/LU+EWAnk
-::YxY4rhs+aU+IeA==
-::cxY6rQJ7JhzQF1fEqQJhZksaHErSXA==
-::ZQ05rAF9IBncCkqN+0xwdVsFAlTMbCXqZg==
-::ZQ05rAF9IAHYFVzEqQIoMQFORwiJu6B1g1rfbgEwaQVoJ7TVNA==
-::eg0/rx1wNQPfEVWB+kM9LVsJDDyyD33rSOVS7fD+jw==
-::fBEirQZwNQPfEVWB+kM9LVsJDBybJnGxCr5c2Ofp+6q0oUwTWuctGA==
-::cRolqwZ3JBvQF1fEqQK08PvSgNoFyLo/4GWbFDR8MhsAebGbtDm4tk7Dw66UK+wYbp0u8Uz3UaasHS31i+G8bZRCpYnbRuu7fuFj0kFca4gqhc1mJc3Z0OObaOYpRKjbgrM=
-::dhA7uBVwLU+EWNxiJMXM9JyJvYNZwAs=
-::YQ03rBFzNR3SWATElA==
-::dhAmsQZ3MwfNWATE100gMQldSwyWfMlzVOVOuKjj9vCdqUEWGqIedIObyL2JKPQAqlfhZpM/wH9e1qs=
-::ZQ0/vhVqMQ3MEVWAtB9wSA==
-::Zg8zqx1/OA3MEVWAtB9wSA==
-::dhA7pRFwIByZRRnk
-::Zh4grVQjdCyDJGyX8VAjFDpQQQ2MNXiuFLQI5/rHy++UqVkSRN4bXIDo5j1D1Gf2FMMNvhHFMEYJy5NVMANBZAigYgQEpnxWhWeEOcmZoTP5U1KT7Uc7K2pmk1DTjSU1ZcFUovMwxXHwrAP6h6Bw
-::YB416Ek+ZG8=
-::
-::
-::978f952a14a936cc963da21a135fa983
 @echo off
 color 0A
 mode con:cols=83 lines=30   
