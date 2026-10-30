@@ -29,8 +29,8 @@ exit
 
 :Continue
 :: Check risk of appending new result to existing scan resultfile
-if exist %cleanResults% (
-    for %%I in (%cleanResults%) do (
+if exist "%cleanResults%" (
+    for %%I in ("%cleanResults%") do (
         if %%~zI GTR 0 (
             echo.
             echo WARNING: there might be a file named %cleanResults% that contains scan result from a last time. If you wish to append scan results from this time to the end of your existing last results, press any key to continue.
@@ -73,11 +73,11 @@ for /f "usebackq tokens=1-2" %%a in ("%ipRanges%") do (
     echo The scanning of the range %%a %%b in %mode% scan mode has finished.Saving...>>%logs%
     echo Raw results saved.>>%logs%
     for /f "eol=- tokens=1 delims= " %%i in (Result.txt) do echo %%i>>parsedResults1.txt
-    del Result.txt
+    del /q Result.txt 2>nul
     for /f "eol=P tokens=1 delims= " %%i in (parsedResults1.txt) do echo %%i>>parsedResults2.txt
-    del parsedResults1.txt
+    del /q parsedResults1.txt 2>nul
     for /f "eol=S tokens=1 delims= " %%i in (parsedResults2.txt) do echo %%i>>%cleanResults%
-    del parsedResults2.txt
+    del /q parsedResults2.txt 2>nul
 
     :: Finalise iteration
     echo Clean results saved.>>%logs%
