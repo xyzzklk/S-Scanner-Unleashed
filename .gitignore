@@ -1,11 +1,2 @@
-# Ignore raw s scanner result
-Result.txt
-
-# Ignore intermediate results of converting scanner output to clean found-host list
-ips*.txt
-
-# Ignore user specified target IP ranges
-ip.txt
-
-# Ignore wrapper produced log
-MainLog.txt
+# Ignore all user specified, result and intermediate parse result files
+*.txt
