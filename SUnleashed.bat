@@ -61,14 +61,14 @@ echo Scan started. Port:%port%; scan mode:%mode%; threads:%threads%...>%logs%
 
 for /f "usebackq tokens=1-2" %%a in ("%ipRanges%") do (
     :: For each range, start scan
-    title S Scanner Unleashed-Scanning:%%a %%b
+    title S Scanner Unleashed-Scanning: %%a %%b
     echo Scanning of IP range %%a %%b has started.
     echo The scanning of the range %%a %%b in %mode% scan mode has started.>>%logs%
 
     %mode%scan.exe %mode% %%a %%b %port% %threads% /save
 
     :: Start parsing results
-    title S Scanner Unleashed-Parsing Result:%%a %%b
+    title S Scanner Unleashed-Parsing Result: %%a %%b
     echo Scanning of IP range %%a %%b has finished. Storing results...
     echo The scanning of the range %%a %%b in %mode% scan mode has finished.Saving...>>%logs%
     echo Raw results saved.>>%logs%
