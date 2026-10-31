@@ -20,7 +20,7 @@ git clone https://github.com/xyzzklk/S-Scanner-Unleashed.git
 cd SScannerUnleashed
 ```
 ### Method 2: Download a Pre-compiled Release
-Alternatively, download a latest a pre-compiled release zip from [the release page](https://github.com/xyzzklk/S-Scanner-Unleashed/releases). Extract the zip file's contents to somewhere on your machine, and then use the following command to enter the folder.
+Alternatively, download a latest pre-compiled release zip from [the release page](https://github.com/xyzzklk/S-Scanner-Unleashed/releases). Extract the zip file's contents to somewhere on your machine, and then use the following command to enter the folder.
 ```bat
 cd "Drive Letter:\Path to folder\SScannerUnleashed\"
 ```
@@ -65,7 +65,7 @@ If you want to scan a single target, simply set the start and end IP to be the s
 1.1.1.1 1.1.1.1
 ```
 
-By default, scan logs will be written to log.txt and up hosts detected will be written to ScanResults.txt. E.g.:
+By default, scan logs will be written to `log.txt` and up hosts detected will be written to `ScanResults.txt`. E.g.:
 ```kotlin
 1.1.1.1
 1.1.1.3
