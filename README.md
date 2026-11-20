@@ -127,26 +127,12 @@ C:\Users\...>
 ```
 
 # Limitations
-S Scanner doesn't seem to work properly with its SYN scan mode on Windows operating systems, so if SYN scan is requested, the binary executable `synscan.exe` will be called instead. It's a modified version of S Scanner from the "DHL" (Means "Big Grey Wolf", initials of "大灰狼") hacking group.
+S Scanner doesn't seem to work properly with its SYN scan mode on Windows operating systems, so if SYN scanning is selected, the binary executable `synscan.exe` is called instead by the main script. It's a community modified version of S Scanner that fixes this bug.
 
-Even with the DHL version, SYN scan only works on Windows Server OSes, probably due to differences in low level system API calls and Windows limitations.
-
-Thus, there is no need to be surprised if you see some error message like
-![SYN scan failing](assets/SYNFailingDemo.png "SYN scan failing on client Windows OSes")
-
-with some configuration like
-```ini
-port=80
-mode=SYN
-threads=1000
-ipRanges=IPRanges.txt
-cleanResults=ScanResults.txt
-logs=log.txt
-```
-on a Windows client machine like Windows 11.
+Even with the patched binary, SYN scan only works on Windows Server OSes, probably due to differences in low level system API calls and Windows limitations.
 
 # Credits
 ## Third Party Binaries Used
 - S Scanner V1.2 by WinEggDrop. Renamed from `s.exe` to `tcpscan.exe`.
-- S Scanner modified version ("V1.5") by "Big Grey Wolf" hacking group. Renamed to `synscan.exe`.
+- S Scanner patched version from community. Renamed to `synscan.exe`.
 - Bat_To_Exe_Converter V4.2 by Fatih Kotak. Used as compiler and not included in repo.
